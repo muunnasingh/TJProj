@@ -14,26 +14,7 @@
 		9B6AABB024AA4A1500091B62 /* TJProj.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AABAE24AA4A1500091B62 /* TJProj.xcdatamodeld */; };
 		9B6AABB224AA4A1600091B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AABB124AA4A1600091B62 /* Assets.xcassets */; };
 		9B6AABB524AA4A1600091B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B6AABB324AA4A1600091B62 /* LaunchScreen.storyboard */; };
-		9B6AABC024AA4A1600091B62 /* TJProjTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AABBF24AA4A1600091B62 /* TJProjTests.swift */; };
-		9B6AABCB24AA4A1600091B62 /* TJProjUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6AABCA24AA4A1600091B62 /* TJProjUITests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		9B6AABBC24AA4A1600091B62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B6AAB9A24AA4A1400091B62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B6AABA124AA4A1400091B62;
-			remoteInfo = TJProj;
-		};
-		9B6AABC724AA4A1600091B62 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9B6AAB9A24AA4A1400091B62 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9B6AABA124AA4A1400091B62;
-			remoteInfo = TJProj;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		9B6AABA224AA4A1400091B62 /* TJProj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TJProj.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,30 +26,10 @@
 		9B6AABB124AA4A1600091B62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B6AABB424AA4A1600091B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B6AABB624AA4A1600091B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B6AABBB24AA4A1600091B62 /* TJProjTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJProjTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B6AABBF24AA4A1600091B62 /* TJProjTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJProjTests.swift; sourceTree = "<group>"; };
-		9B6AABC124AA4A1600091B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B6AABC624AA4A1600091B62 /* TJProjUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TJProjUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9B6AABCA24AA4A1600091B62 /* TJProjUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TJProjUITests.swift; sourceTree = "<group>"; };
-		9B6AABCC24AA4A1600091B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9B6AAB9F24AA4A1400091B62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B6AABB824AA4A1600091B62 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B6AABC324AA4A1600091B62 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -82,8 +43,6 @@
 			isa = PBXGroup;
 			children = (
 				9B6AABA424AA4A1400091B62 /* TJProj */,
-				9B6AABBE24AA4A1600091B62 /* TJProjTests */,
-				9B6AABC924AA4A1600091B62 /* TJProjUITests */,
 				9B6AABA324AA4A1400091B62 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,8 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				9B6AABA224AA4A1400091B62 /* TJProj.app */,
-				9B6AABBB24AA4A1600091B62 /* TJProjTests.xctest */,
-				9B6AABC624AA4A1600091B62 /* TJProjUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,24 +68,6 @@
 				9B6AABAE24AA4A1500091B62 /* TJProj.xcdatamodeld */,
 			);
 			path = TJProj;
-			sourceTree = "<group>";
-		};
-		9B6AABBE24AA4A1600091B62 /* TJProjTests */ = {
-			isa = PBXGroup;
-			children = (
-				9B6AABBF24AA4A1600091B62 /* TJProjTests.swift */,
-				9B6AABC124AA4A1600091B62 /* Info.plist */,
-			);
-			path = TJProjTests;
-			sourceTree = "<group>";
-		};
-		9B6AABC924AA4A1600091B62 /* TJProjUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9B6AABCA24AA4A1600091B62 /* TJProjUITests.swift */,
-				9B6AABCC24AA4A1600091B62 /* Info.plist */,
-			);
-			path = TJProjUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,42 +90,6 @@
 			productReference = 9B6AABA224AA4A1400091B62 /* TJProj.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9B6AABBA24AA4A1600091B62 /* TJProjTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B6AABD224AA4A1600091B62 /* Build configuration list for PBXNativeTarget "TJProjTests" */;
-			buildPhases = (
-				9B6AABB724AA4A1600091B62 /* Sources */,
-				9B6AABB824AA4A1600091B62 /* Frameworks */,
-				9B6AABB924AA4A1600091B62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B6AABBD24AA4A1600091B62 /* PBXTargetDependency */,
-			);
-			name = TJProjTests;
-			productName = TJProjTests;
-			productReference = 9B6AABBB24AA4A1600091B62 /* TJProjTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9B6AABC524AA4A1600091B62 /* TJProjUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9B6AABD524AA4A1600091B62 /* Build configuration list for PBXNativeTarget "TJProjUITests" */;
-			buildPhases = (
-				9B6AABC224AA4A1600091B62 /* Sources */,
-				9B6AABC324AA4A1600091B62 /* Frameworks */,
-				9B6AABC424AA4A1600091B62 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9B6AABC824AA4A1600091B62 /* PBXTargetDependency */,
-			);
-			name = TJProjUITests;
-			productName = TJProjUITests;
-			productReference = 9B6AABC624AA4A1600091B62 /* TJProjUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -199,14 +102,6 @@
 				TargetAttributes = {
 					9B6AABA124AA4A1400091B62 = {
 						CreatedOnToolsVersion = 11.2.1;
-					};
-					9B6AABBA24AA4A1600091B62 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 9B6AABA124AA4A1400091B62;
-					};
-					9B6AABC524AA4A1600091B62 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 9B6AABA124AA4A1400091B62;
 					};
 				};
 			};
@@ -224,8 +119,6 @@
 			projectRoot = "";
 			targets = (
 				9B6AABA124AA4A1400091B62 /* TJProj */,
-				9B6AABBA24AA4A1600091B62 /* TJProjTests */,
-				9B6AABC524AA4A1600091B62 /* TJProjUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,20 +131,6 @@
 				9B6AABB524AA4A1600091B62 /* LaunchScreen.storyboard in Resources */,
 				9B6AABB224AA4A1600091B62 /* Assets.xcassets in Resources */,
 				9B6AABAD24AA4A1500091B62 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B6AABB924AA4A1600091B62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B6AABC424AA4A1600091B62 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,36 +148,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B6AABB724AA4A1600091B62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B6AABC024AA4A1600091B62 /* TJProjTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9B6AABC224AA4A1600091B62 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9B6AABCB24AA4A1600091B62 /* TJProjUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		9B6AABBD24AA4A1600091B62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B6AABA124AA4A1400091B62 /* TJProj */;
-			targetProxy = 9B6AABBC24AA4A1600091B62 /* PBXContainerItemProxy */;
-		};
-		9B6AABC824AA4A1600091B62 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9B6AABA124AA4A1400091B62 /* TJProj */;
-			targetProxy = 9B6AABC724AA4A1600091B62 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9B6AABAB24AA4A1500091B62 /* Main.storyboard */ = {
@@ -445,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = techjini.TJProj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.capitalfirst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -463,94 +313,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = techjini.TJProj;
+				PRODUCT_BUNDLE_IDENTIFIER = com.live.capitalfirst;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		9B6AABD324AA4A1600091B62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4S3JN5XFF;
-				INFOPLIST_FILE = TJProjTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = techjini.TJProjTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TJProj.app/TJProj";
-			};
-			name = Debug;
-		};
-		9B6AABD424AA4A1600091B62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4S3JN5XFF;
-				INFOPLIST_FILE = TJProjTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = techjini.TJProjTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TJProj.app/TJProj";
-			};
-			name = Release;
-		};
-		9B6AABD624AA4A1600091B62 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4S3JN5XFF;
-				INFOPLIST_FILE = TJProjUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = techjini.TJProjUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TJProj;
-			};
-			name = Debug;
-		};
-		9B6AABD724AA4A1600091B62 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = B4S3JN5XFF;
-				INFOPLIST_FILE = TJProjUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = techjini.TJProjUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TJProj;
 			};
 			name = Release;
 		};
@@ -571,24 +337,6 @@
 			buildConfigurations = (
 				9B6AABD024AA4A1600091B62 /* Debug */,
 				9B6AABD124AA4A1600091B62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B6AABD224AA4A1600091B62 /* Build configuration list for PBXNativeTarget "TJProjTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B6AABD324AA4A1600091B62 /* Debug */,
-				9B6AABD424AA4A1600091B62 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B6AABD524AA4A1600091B62 /* Build configuration list for PBXNativeTarget "TJProjUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9B6AABD624AA4A1600091B62 /* Debug */,
-				9B6AABD724AA4A1600091B62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
